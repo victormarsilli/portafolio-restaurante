@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="pageTitle">Sabores Frescos - Sugerencias</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Sabores Frescos</div>
+        <nav>
+            <ul>
+                <li><a href="index.html#inicio" data-lang-key="inicio">Inicio</a></li>
+                <li><a href="index.html#menu" data-lang-key="menu">Menú</a></li>
+                <li><a href="sugerencias.html" data-lang-key="sugerencias">Sugerencias</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button id="lang-es" class="lang-btn active">ES</button>
+            <button id="lang-en" class="lang-btn">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="sugerencias" class="suggestion-page">
+            <h2 data-lang-key="suggestionTitle">¡Tu Sabor, Nuestra Próxima Creación!</h2>
+            <p data-lang-key="suggestionText">¿Tienes una idea para un plato nuevo? ¡Cuéntanos! Nos encantaría escuchar tus sugerencias.</p>
+            <form id="suggestionForm">
+                <div class="form-group">
+                    <label for="nombre" data-lang-key="formName">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="sugerencia" data-lang-key="formSuggestion">Tu Sugerencia:</label>
+                    <textarea id="sugerencia" name="sugerencia" rows="4" required></textarea>
+                </div>
+                <button type="submit" data-lang-key="formSubmit">Enviar Sugerencia</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-lang-key="footerText">&copy; 2025 Sabores Frescos. Hecho con ❤️ para un portafolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

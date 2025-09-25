@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="pageTitle">Sabores Frescos - Portafolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Sabores Frescos</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio" data-lang-key="inicio">Inicio</a></li>
+                <li><a href="#menu" data-lang-key="menu">Menú</a></li>
+                <li><a href="sugerencias.html" data-lang-key="sugerencias">Sugerencias</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button id="lang-es" class="lang-btn active">ES</button>
+            <button id="lang-en" class="lang-btn">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <div class="slide">
+                            <img src="images/Captura.PNG" alt="Cliente feliz">
+                            <div class="testimonial">
+                                <p data-lang-key="testimonial1">"¡La comida está de lujo! Sabores únicos y un ambiente increíble."</p>
+                                <span>— Ana G.</span>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/hero-background.jpg.jpg" alt="Cliente feliz">
+                            <div class="testimonial">
+                                <p data-lang-key="testimonial2">"¡El mejor lugar para comer sano y delicioso!"</p>
+                                <span>— Luis M.</span>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/imf.PNG" alt="Comensales felices">
+                            <div class="testimonial">
+                                <p data-lang-key="testimonial3">"¡Para chuparse los dedos! Volveremos pronto."</p>
+                                <span>— Equipo de la oficina</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section animate-on-scroll">
+            <h2 data-lang-key="menuTitle">Nuestro Menú</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3 data-lang-key="menuItem1Title">Ensalada Vital</h3>
+                    <p data-lang-key="menuItem1Desc">Una mezcla de hojas verdes, aguacate, tomate cherry, y nueces.</p>
+                </div>
+                <div class="menu-item">
+                    <h3 data-lang-key="menuItem2Title">Bowl Energético</h3>
+                    <p data-lang-key="menuItem2Desc">Arroz integral, pollo a la parrilla, brócoli, y una salsa especial.</p>
+                </div>
+                <div class="menu-item">
+                    <h3 data-lang-key="menuItem3Title">Batido Tropical</h3>
+                    <p data-lang-key="menuItem3Desc">Mango, piña, y un toque de menta. Sabor refrescante garantizado.</p>
+                </div>
+            </div>
+        </section>
+        
+        </main>
+
+    <footer>
+        <p data-lang-key="footerText">&copy; 2025 Sabores Frescos. Hecho con ❤️ para un portafolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
